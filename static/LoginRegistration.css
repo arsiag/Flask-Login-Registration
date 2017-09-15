@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+    /*border: 1px dotted red;*/
+}
+#wrapper {
+	width: 1072px;
+	margin: 0px auto;
+	padding: 5px;
+	overflow: hidden;
+    color: black;
+}
+#header {
+    width: inherit;
+    height: 50px;
+    margin-top: 50px;
+}
+#headerleft{
+    width: 950px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+#headerright {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-left: 30px;
+    padding-top: 10px; */
+    
+}
+#leftwrapper {
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px; 
+	/* overflow-y: scroll; */
+}
+#rightwrapper{
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px; 
+	/* overflow-y: scroll; */
+}
+#msgarea{
+    width: 500px;
+    height: 80px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+h1, h2{
+    margin-bottom: 20px;
+}
+p{
+    display: block;
+    padding: 2px;
+    font-size: 120%;
+}
+input{
+    float: right;
+}
+#button{
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
